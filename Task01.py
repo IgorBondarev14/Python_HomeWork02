@@ -6,7 +6,7 @@
 N = input("Введите число: ")
 sum = 0
 for i in N:
-    if i != ".":
+    if i != "." and i != ",":
         sum = sum + int(i)
 print(sum)
 
